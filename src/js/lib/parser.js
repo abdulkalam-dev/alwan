@@ -79,7 +79,7 @@ export const parseColor = (colorString, asString) => {
                 r,
                 g,
                 b,
-                a: a ? round(a * 100) / 100 : 1,
+                a: a != null ? round(a * 100) / 100 : 1,
             }
         }
 
